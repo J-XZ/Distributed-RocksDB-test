@@ -1,8 +1,0 @@
-# ninja log v5
-0	472	1644329225757365060	CMakeFiles/control_node.dir/control_node.cpp.o	dcd078de02915899
-0	54	1644330929765868118	CMakeFiles/store_node.dir/store_node.cpp.o	14bea540eb20f508
-54	86	1644330929797868491	store_node	fed7d8a05d94a449
-473	595	1644329225877363861	control_node	32fabdef3b1a901e
-0	29	1644331029954980848	build.ninja	b11d23f4964246b8
-1	109	1644331039663083078	CMakeFiles/control_node.dir/control_node.cpp.o	dcd078de02915899
-109	187	1644331039743083917	control_node	32fabdef3b1a901e
