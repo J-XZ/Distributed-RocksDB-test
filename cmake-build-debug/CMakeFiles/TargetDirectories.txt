@@ -1,0 +1,4 @@
+/home/jxz/Codes/Distributed RocksDB/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jxz/Codes/Distributed RocksDB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jxz/Codes/Distributed RocksDB/cmake-build-debug/CMakeFiles/control_node.dir
+/home/jxz/Codes/Distributed RocksDB/cmake-build-debug/CMakeFiles/store_node.dir
