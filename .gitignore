@@ -1,2 +1,7 @@
 /cmake-build-debug/
 .idea
+/tmp/
+/build/
+/libs/librocksdb_debug.a
+/cmake-build-debug/
+./cmake-build-debug/

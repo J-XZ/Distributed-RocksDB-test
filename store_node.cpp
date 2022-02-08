@@ -6,10 +6,25 @@
 #include<sys/socket.h>
 #include<netinet/in.h>
 #include<unistd.h>
+#include <iostream>
+#include "cstring"
 #include "defs.h"
+#include "rocksdb/db.h"
 
+using namespace std;
 
 int main(int argc, char **argv) {
+    rocksdb::DB *db;
+    rocksdb::Options options{};
+    options.create_if_missing = true;
+    auto s = rocksdb::DB::Open(options, "/tmp/testdb", &db);
+    cout << s.ok() << endl;
+    string str;
+    db->Put(rocksdb::WriteOptions(), "test", "ok");
+    cout << "put ok";
+    db->Get(rocksdb::ReadOptions(), "test", &str);
+    cout << "get " << str << endl;
+
     int listen_fd, connection_fd;
     struct sockaddr_in control_address{};
     char *buff = (char *) malloc(MAXLINE);
